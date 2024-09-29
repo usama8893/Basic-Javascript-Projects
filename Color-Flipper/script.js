@@ -14,6 +14,3 @@ function randomColor() {
     body.style.backgroundColor = color
 }
 randomColor();
-
-SHA256:hwUBLkprIOpAnScV9d3+NqbYJ4lp/tMsyxAuFZGMbzg
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII/piF9b3A+Ncvy90fkz37qS1T00PAnLovimsUNW+mFS muhammadusama9306@gmail.com
