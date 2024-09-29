@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+
+    <style>
+
+#yellow{
+    background-color: #afa853;
+}
+#blue{
+    background-color: rgb(85, 85, 187);
+}
+#purple{
+    background-color: purple;
+}
+#random{
+    background-color: steelblue;
+}
+.btn{
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    border: none;
+    font-size: x-large;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Color Flipper</h2>
+
+<button id="yellow" class="btn" onclick="setColor('#afa853')">Grey</button>
+<button id="blue" class="btn" onclick="setColor('rgb(85, 85, 187)')">Blue</button>
+<button id="purple" class="btn" onclick="setColor('purple')">Purple</button>
+<button id="random" class="btn" onclick="randomColor()">Random</button>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
